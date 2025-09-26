@@ -4,12 +4,21 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html, body, #app {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: black;
+    overflow-x: hidden;
+}
+
 /* Custom Font */
-@font-face {
-    font-family: "FontAwesome";
-    src: url("/font1.ttf") format("truetype");
-    font-display: swap;
- }
+/*@font-face {*/
+/*    font-family: "FontAwesome";*/
+/*    src: url("/font1.ttf") format("truetype");*/
+/*    font-display: swap;*/
+/* }*/
 
 /* Custom Utility Classes */
 @layer utilities {
@@ -19,11 +28,11 @@
 }
 
 /* Global Reset */
-* {
-    font-family: "FontAwesome";
-    font-weight: 210;
+/** {*/
+/*    font-family: "FontAwesome";*/
+/*    font-weight: 210;*/
 
- }
+/* }*/
 
 @theme inline {
     --color-background: var(--background);
