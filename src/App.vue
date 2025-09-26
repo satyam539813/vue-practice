@@ -78,6 +78,6 @@
 
 <script setup>
 
-import Header from "@/component/Header.vue";
+import Header from "@/components/Header.vue";
 
 </script>
