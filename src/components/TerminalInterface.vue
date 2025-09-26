@@ -74,7 +74,7 @@
       <div v-for="i in 20" :key="i" 
            :class="`particle-${i}`"
            class="absolute text-green-400/20 text-xs animate-pulse"
-           :style="getParticleStyle(i)">
+           :style="getParticleStyle()">
         {{ getRandomCode() }}
       </div>
     </div>
@@ -83,7 +83,6 @@
 
 <script setup>
 import { ref, onMounted, nextTick } from 'vue'
-import { gsap } from 'gsap'
 
 const matrixCanvas = ref(null)
 const commandInput = ref(null)
@@ -322,7 +321,7 @@ const startHackingSequence = () => {
   }, 800)
 }
 
-const getParticleStyle = (index) => {
+const getParticleStyle = () => {
   return {
     top: `${Math.random() * 100}%`,
     left: `${Math.random() * 100}%`,
