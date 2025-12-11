@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Nike Shoe",
+    "desc": "Lightweight running shoe.",
+    "img": "https://i.pinimg.com/736x/a4/eb/29/a4eb29089c9107396bb27e1f2bf38333.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Apple Watch",
+    "desc": "Premium smart watch.",
+    "img": "https://i.pinimg.com/736x/63/fc/84/63fc8416667d439898242bb51445ddec.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Another ",
+    "desc": "Noise-cancelling headphones.",
+    "img": "https://i.pinimg.com/1200x/30/3b/3e/303b3e93043f97bb7c718c366f02d8d6.jpg"
+  }
+]
